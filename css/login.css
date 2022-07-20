@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(133, 96, 169, 0.7),
+      rgb(133, 96, 169, 1)
+    ),
+    url(../img/Street-Dance-01.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #d5ef7f;
+  display: inline-block;
+}
+
+.top {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+
+.top-first-span {
+  display: block;
+  /* height: 20px; */
+  white-space: nowrap;
+}
+
+.top-second-span {
+  display: block;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.logo {
+  width: 64px;
+  height: 64px;
+  stroke: red;
+}
+
+.login {
+  display: none;
+}
+
+footer {
+  display: none;
+}
