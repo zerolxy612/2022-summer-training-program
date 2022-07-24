@@ -18,6 +18,11 @@
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
   /* position: absolute; */
   position: relative;
@@ -76,6 +81,16 @@ header {
   width: 240px;
 }
 
+.login-logo {
+  width: 13.3px;
+  height: 13.3px;
+  filter: invert(78%) sepia(14%) saturate(726%) hue-rotate(216deg)
+    brightness(107%) contrast(80%);
+  position: relative;
+  top: 31px;
+  left: -95px;
+}
+
 .login-input1 {
   margin-bottom: 30px;
   width: 240px;
@@ -83,7 +98,6 @@ header {
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid #fff;
-  background: url(../SVG//user.svg) no-repeat;
 }
 
 .login-input2 {
@@ -92,4 +106,15 @@ header {
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid #fff;
+}
+
+.footer a {
+  display: block;
+  align-items: center;
+  height: 64px;
+  color: #453257;
+  font-weight: bold;
+  text-align: center;
+  background-color: #d5ef7f;
+  line-height: 64px;
 }
