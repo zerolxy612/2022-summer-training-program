@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 .main {
@@ -18,7 +19,8 @@
 }
 
 header {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -30,7 +32,7 @@ header {
 .top {
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 60px;
+  height: 220px;
 }
 
 .top-first-span {
@@ -46,19 +48,48 @@ header {
   font-weight: 600;
 }
 
-.logo {
+.top-logo {
+  display: inline-block;
   width: 64px;
   height: 64px;
   border: 1px solid #d5ef7f;
   border-radius: 50%;
-  border-spacing: 10px 50px;
-  background-color: #d5ef7f;
+  position: relative;
+  top: 25px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  filter: invert(84%) sepia(3%) saturate(4423%) hue-rotate(32deg)
+    brightness(105%) contrast(100%);
 }
 
 .login {
-  display: none;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+  position: relative;
+  font-size: 16px;
+  width: 240px;
 }
 
-footer {
-  display: none;
+.login-input1 {
+  margin-bottom: 30px;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  background: url(../SVG//user.svg) no-repeat;
+}
+
+.login-input2 {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
 }
