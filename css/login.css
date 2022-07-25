@@ -96,7 +96,8 @@ header {
   width: 240px;
   height: 40px;
   border-radius: 20px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: rgb(255, 255, 255, 0.2);
   border: 1px solid #fff;
   outline: none;
   padding-left: 35px;
