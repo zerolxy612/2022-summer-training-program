@@ -98,6 +98,8 @@ header {
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid #fff;
+  outline: none;
+  padding-left: 35px;
 }
 
 .login-input2 {
@@ -106,6 +108,8 @@ header {
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid #fff;
+  outline: none;
+  padding-left: 35px;
 }
 
 .footer a {
