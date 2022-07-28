@@ -44,19 +44,20 @@ img {
 }
 
 .list-main {
-  position: fixed;
+  position: absolute;
   top: 4rem;
   bottom: 0;
 }
 
 .list-main-card {
   width: 100%;
-  height: 40%;
-  padding: 2rem;
+  height: 25rem;
+  padding: 5%;
+  position: relative;
 }
 
 .card-top {
-  height: 20%;
+  height: 15%;
 }
 
 .card-top-username {
@@ -86,6 +87,20 @@ img {
 .card-title {
   font-size: 1.8rem;
   color: #453257;
+  font-weight: 600;
+}
+.card-img-box {
+  float: right;
+  right: 0;
+  position: relative;
+  top: -7%;
+  padding: 2rem 0 8rem 0;
+}
+
+.card-img {
+  width: 6.8rem;
+  height: 6.8rem;
+  border: 1px solid black;
 }
 
 .card-time {
@@ -109,6 +124,8 @@ img {
 .card-footer {
   font-size: 1.2rem;
   color: #453257;
+  position: relative;
+  bottom: 0;
 }
 
 .card-footer1 {
@@ -132,4 +149,12 @@ img {
 .card-footer-img2 {
   filter: invert(56%) sepia(21%) saturate(6719%) hue-rotate(325deg)
     brightness(98%) contrast(108%);
+}
+
+hr {
+  width: 95%;
+  position: relative;
+  left: 2rem;
+  color: #e8e8e8;
+  height: 0.2rem;
 }
