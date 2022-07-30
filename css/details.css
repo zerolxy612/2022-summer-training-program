@@ -43,3 +43,68 @@ img {
   right: 5%;
   border-radius: 50%;
 }
+
+.details-main {
+  width: 100%;
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+}
+
+.details-top {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.top-button {
+  background-color: white;
+  color: #8560a9;
+  border: 0.1rem solid #8560a9;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+  width: 9rem;
+  height: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.details-top-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #453257;
+}
+
+.user-card {
+  margin-bottom: 7rem;
+}
+
+.user-card-img {
+  float: left;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+.user-card-information {
+  float: left;
+  line-height: 2rem;
+}
+
+.username {
+  display: block;
+  font-size: 1.4rem;
+  color: #67616d;
+}
+
+.usertime {
+  display: block;
+  font-size: 1.2rem;
+  color: #bababa;
+}
+
+hr {
+  color: #e8e8e8;
+  height: 2px;
+}
+.details-top-select {
+  height: 4.5rem;
+}
