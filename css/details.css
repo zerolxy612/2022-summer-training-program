@@ -144,3 +144,34 @@ hr {
   filter: invert(76%) sepia(70%) saturate(369%) hue-rotate(25deg)
     brightness(92%) contrast(88%);
 }
+
+.details-content {
+  width: 100%;
+  height: 42rem;
+  margin: 2rem 0 0 2rem;
+}
+.details-content-img {
+  margin-bottom: 2rem;
+  height: 15rem;
+}
+
+.details-content-img1 {
+  float: left;
+  width: 70%;
+  height: 15rem;
+  border-radius: 13px;
+}
+
+.details-content-img2 {
+  float: right;
+  width: 25%;
+  height: 15rem;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.details-content-para {
+  font-size: 1.4rem;
+  color: #67616d;
+  margin: 2rem;
+}
