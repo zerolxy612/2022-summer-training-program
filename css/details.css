@@ -6,7 +6,10 @@
 html {
   font-size: 62.5%;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 .list-top {
   position: relative;
   width: 100%;
@@ -49,6 +52,7 @@ img {
   position: absolute;
   top: 4rem;
   bottom: 0;
+  overflow-x: hidden;
 }
 
 .details-top {
@@ -147,7 +151,7 @@ hr {
 
 .details-content {
   width: 100%;
-  height: 42rem;
+  height: 38rem;
   margin: 2rem 0 0 2rem;
 }
 .details-content-img {
@@ -171,7 +175,34 @@ hr {
 }
 
 .details-content-para {
+  width: 90%;
   font-size: 1.4rem;
   color: #67616d;
-  margin: 2rem;
+  /* margin: 2rem; */
+}
+
+.para-colorChange {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(103, 97, 109),
+    rgb(250, 249, 252)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.details-content-btn {
+  float: right;
+  display: block;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  position: relative;
+  top: -3rem;
+  right: 4rem;
+  border: 1px solid #d5ef7f;
+  background-color: #d5ef7f;
+  font-size: 1rem;
+  border-radius: 10px;
 }
