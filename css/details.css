@@ -109,6 +109,8 @@ hr {
   color: #e8e8e8;
   height: 2px;
   min-width: 39rem;
+  position: relative;
+  left: 2rem;
 }
 .details-select-list {
   height: 4.5rem;
@@ -205,4 +207,59 @@ hr {
   background-color: #d5ef7f;
   font-size: 1rem;
   border-radius: 10px;
+}
+
+.details-time {
+  width: 100%;
+  height: 15rem;
+}
+
+.details-time-title {
+  margin: 2rem;
+  padding-left: 1rem;
+  color: #8560a9;
+  font-size: 1.6rem;
+  border-left: 4px solid #8560a9;
+  font-weight: 700;
+}
+
+.details-time-box {
+  display: flex;
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+
+.details-time-col1 {
+  flex: 1;
+  font-size: 1.6rem;
+  /* border-right: 2px solid black; */
+}
+
+.details-time-col1:first-child {
+  border-right: 2px solid #faf9fc;
+}
+
+.details-time-logo {
+  width: 1.6rem;
+  height: 1.38rem;
+  filter: invert(97%) sepia(65%) saturate(696%) hue-rotate(14deg)
+    brightness(95%) contrast(97%);
+}
+
+.time-details {
+  display: block;
+  font-size: 3.2rem;
+  color: #aecb4f;
+  padding: 1rem;
+}
+
+.time-details-2 {
+  font-size: 1.6rem;
+}
+
+.details-map-img {
+  padding: 2rem;
+  width: 100%;
+  height: auto;
 }
