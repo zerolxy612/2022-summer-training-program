@@ -20,8 +20,8 @@ img {
 }
 
 .list-top-img1 {
-  left: 3%;
-  top: 0.6rem;
+  float: left;
+  margin: 1rem;
   width: 1.8rem;
   height: 1.8rem;
 }
@@ -29,8 +29,10 @@ img {
 .list-top-img2 {
   width: 2.09rem;
   height: 2.4rem;
-  top: 0.8rem;
-  left: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   filter: invert(84%) sepia(3%) saturate(4423%) hue-rotate(32deg)
     brightness(105%) contrast(100%);
 }
@@ -38,9 +40,8 @@ img {
 .list-top-img3 {
   width: 2.4rem;
   height: 2.4rem;
-  top: 0.9rem;
   float: right;
-  right: 5%;
+  margin: 1rem;
   border-radius: 50%;
 }
 
@@ -53,9 +54,9 @@ img {
 .list-main-card {
   width: 100%;
   min-width: 32rem;
-  height: 25rem;
   padding: 5%;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .card-top {

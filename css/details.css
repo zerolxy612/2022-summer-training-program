@@ -113,18 +113,21 @@ hr {
   left: 2rem;
 }
 .details-select-list {
+  text-align: center;
   height: 4.5rem;
   display: inline-block;
-  min-width: 39rem;
+  margin: 0 auto;
   color: #8c8c8c;
+  display: flex;
 }
 
 .details-select {
+  flex: 1;
   display: inline-block;
   font-size: 1.2rem;
   position: relative;
   top: 1rem;
-  padding: 0 2rem 0 2rem;
+  padding: 0 0 0 2rem;
 }
 
 .details-select1 {
@@ -284,7 +287,7 @@ hr {
   padding-bottom: 4rem;
   border-bottom: 2px solid #e8e8e8;
 }
-.details-comment-2{
+.details-comment-2 {
   padding-bottom: 4rem;
 }
 .details-comment-2 .details-comment-box {
@@ -334,7 +337,7 @@ hr {
   margin: 0 3px;
 }
 
-.details-message{
+.details-message {
   background-color: red;
   width: 100%;
 }
