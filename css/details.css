@@ -127,7 +127,7 @@ hr {
   font-size: 1.2rem;
   position: relative;
   top: 1rem;
-  padding: 0 0 0 2rem;
+  height: 2.5rem;
 }
 
 .details-select1 {
@@ -319,25 +319,49 @@ hr {
   height: 2.4rem;
   border-radius: 50%;
 }
-/* .details-comment-shape {
-  width: 2.4rem;
-  height: 2.4rem;
-  shape-outside: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-  border: 2px solid red;
-} */
-/* .details-comment-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 20%);
-} */
+
 .details-comment-item {
   display: inline-block;
   margin: 0 3px;
 }
 
 .details-message {
-  background-color: red;
+  margin-top: 2rem;
   width: 100%;
+}
+.details-message-box{
+  margin-bottom: -1rem;
+}
+.details-message-box img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.details-message-box-right {
+  padding-left: 6rem;
+  position: relative;
+  top: -3rem;
+}
+.detail-message-box-user img {
+  width: 1.6rem;
+  height: 1.3rem;
+  float: right;
+  right: 3rem;
+  filter: invert(93%) sepia(29%) saturate(694%) hue-rotate(14deg)
+    brightness(99%) contrast(89%);
+}
+.userName {
+  font-size: 1.2rem;
+  color: #8560a9;
+  margin-right: 2rem;
+}
+.userTime {
+  color: #bababa;
+}
+.details-message-para {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  width: 90%;
+  color: #67616d;
 }
