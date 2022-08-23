@@ -46,3 +46,84 @@ img {
   right: 5%;
   border-radius: 50%;
 }
+.likes-main {
+  width: 100%;
+  position: relative;
+  top: 1.5rem;
+  bottom: 0;
+  overflow-x: hidden;
+}
+.likes-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.top-logo {
+  display: inline-block;
+  width: 7.2rem;
+  height: 7.2rem;
+  border: 3px solid #8560a9;
+  border-radius: 50%;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: relative;
+  top: 0.8rem;
+}
+
+.likes-title h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.likes-title span {
+  font-size: 1.4rem;
+  color: #8560a9;
+}
+
+.details-select-list {
+  text-align: center;
+  height: 4.5rem;
+  display: inline-block;
+  margin: 0 auto;
+  color: #8c8c8c;
+  display: flex;
+}
+
+.details-select {
+  flex: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  position: relative;
+  top: 1rem;
+  height: 2.5rem;
+}
+
+.details-select1 {
+  color: #aecb4f;
+  border-right: 1px solid #e8e8e8;
+}
+
+.details-select2 {
+  border-right: 1px solid #e8e8e8;
+}
+
+.details-select-img {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 2px;
+  top: 0.4rem;
+  filter: invert(79%) sepia(0%) saturate(1%) hue-rotate(323deg) brightness(95%)
+    contrast(91%);
+}
+
+.details-select-img1 {
+  width: 1.67rem;
+  height: 1.67rem;
+  filter: invert(76%) sepia(70%) saturate(369%) hue-rotate(25deg)
+    brightness(92%) contrast(88%);
+}
