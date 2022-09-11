@@ -50,7 +50,7 @@ img {
   width: 100%;
   position: relative;
   top: 1.5rem;
-  bottom: 0;
+
   overflow-x: hidden;
 }
 .likes-title {
@@ -247,4 +247,19 @@ img {
   left: 2rem;
   color: #e8e8e8;
   height: 0.2rem;
+}
+.no-result {
+  font-size: 1.4rem;
+  color: #bababa;
+  text-align: center;
+  padding-top: 40%;
+}
+.no-result img {
+  width: 6rem;
+  height: 6rem;
+  filter: invert(91%) sepia(78%) saturate(1747%) hue-rotate(184deg)
+    brightness(93%) contrast(93%);
+}
+.no-result span {
+  display: block;
 }
