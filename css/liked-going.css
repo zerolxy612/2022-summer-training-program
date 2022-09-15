@@ -67,7 +67,6 @@ hr {
   margin: 0 auto;
   color: #8c8c8c;
   display: flex;
-  border-bottom: 2px solid #eee;
 }
 
 .details-select {
@@ -86,11 +85,9 @@ hr {
 
 .details-select2 {
   border-right: 1px solid #e8e8e8;
-}
-
-.details-select3 {
   color: #aecb4f;
 }
+
 
 .details-select-img {
   width: 1.7rem;
@@ -101,7 +98,7 @@ hr {
     contrast(91%);
 }
 
-.details-select-img3 {
+.details-select-img2 {
   width: 1.67rem;
   height: 1.67rem;
   filter: invert(76%) sepia(70%) saturate(369%) hue-rotate(25deg)
