@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.list-top {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 4rem;
+  background-color: #8560a9;
+}
+
+img {
+  position: relative;
+}
+
+.list-top-img1 {
+  left: 3%;
+  top: 0.6rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.list-top-img2 {
+  width: 2.09rem;
+  height: 2.4rem;
+  top: 0.8rem;
+  left: 40%;
+  filter: invert(84%) sepia(3%) saturate(4423%) hue-rotate(32deg)
+    brightness(105%) contrast(100%);
+}
+
+.list-top-img3 {
+  width: 2.4rem;
+  height: 2.4rem;
+  top: 0.9rem;
+  float: right;
+  right: 5%;
+  border-radius: 50%;
+}
+.likes-main {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+.no-card{
+  width: 100%;
+  height: 30%;
+  padding: 2rem;
+  background-color: #FAF9FC;
+}
+.no-card-title span{
+  font-size:1.6rem;
+  color: #8560A9;
+  font-weight: bold;
+}
+.no-card-title-btn{
+  width: 35%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-weight: 550;
+  text-align: center;
+  border-radius: 15px;
+  float: right;
+  display: inline;
+  color: #67616D;
+  background-color: #D5EF7F;
+  white-space: nowrap;
+}
+.no-card-time{
+  font-size: 1.2rem;
+  color: #67616D;
+  margin-top: 1.2rem;
+}
+.no-result {
+  font-size: 1.4rem;
+  color: #bababa;
+  text-align: center;
+  padding-top: 40%;
+}
+.no-result img {
+  width: 6rem;
+  height: 6rem;
+  filter: invert(91%) sepia(78%) saturate(1747%) hue-rotate(184deg)
+    brightness(93%) contrast(93%);
+}
+.no-result span {
+  display: block;
+}
