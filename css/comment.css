@@ -8,7 +8,7 @@ html {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 .list-top {
   position: relative;
