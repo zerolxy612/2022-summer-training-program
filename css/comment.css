@@ -115,9 +115,7 @@ hr {
 .details-message-box {
   margin-bottom: -1rem;
 }
-.details-message-box:last-child {
-  margin-bottom: 4rem;
-}
+
 .details-message-box img {
   width: 2.4rem;
   height: 2.4rem;
@@ -175,10 +173,15 @@ hr {
   position: relative;
   top: 15%;
 }
-input::placeholder {
+.comment-input{
   color: #d3c1e5;
   font-size: 1.4rem;
   padding-left: 1rem;
+}
+input::placeholder {
+  color: #d3c1e5;
+  font-size: 1.4rem;
+  /* padding-left: 1rem; */
 }
 .send-img {
   width: 6.4rem;
